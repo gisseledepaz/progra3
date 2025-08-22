@@ -5,7 +5,8 @@ print('....................')
 
 
 
-def verificar_numero(num):
+def positivo_negativo(num):
+
     if num > 0:
         return "El número es positivo"
     elif num < 0:
@@ -14,8 +15,6 @@ def verificar_numero(num):
         return "El número es 0"
 
 
-# Ejemplo de uso
-print(verificar_numero(10))   # El número es positivo
-print(verificar_numero(-5))   # El número es negativo
-print(verificar_numero(0))    # El número es 0
+num1 = int(input("ingrese un numero "))
+print( positivo_negativo(num1))
 
